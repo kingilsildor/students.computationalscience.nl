@@ -497,9 +497,14 @@ hr {
   background-size: cover;
 }
 
-.image-wrap-text {
+.image-wrap-text-left {
   float: left;
   margin: 5px 40px 25px 0;
+}
+
+.image-wrap-text-right {
+  float: right;
+  margin: 5px 0px 25px 40px
 }
 
 .image-caption {
@@ -1509,10 +1514,9 @@ ol.nested>li:before {
     text-align: left;
   }
 
-  .image-wrap-text {
+  .image-wrap-text-left .image-wrap-text-right {
     max-width: 100%;
     margin-bottom: 20px;
-    margin-right: 0;
   }
 }
 
