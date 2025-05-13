@@ -114,3 +114,11 @@
   display: none;
   color: #007bff;
 }
+
+.image img {
+  transition: transform 0.3s ease;
+}
+
+.image:hover img {
+  transform: scale(1.07);
+}
