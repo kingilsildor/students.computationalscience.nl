@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Project Title</title>
+    <title>Models</title>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet"
         type="text/css" />
@@ -33,14 +33,10 @@
                 <div class="flex-row">
                     <div class="flex-item flex-column">
                         <p class="text">
-                            Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam
-                            ultricies nisi vel
-                            augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
-                            tempus,
-                            tellus eget
-                            condimentum rhoncus, <a href="javascript:void(0)">sem quam semper libero</a>, sit amet
-                            adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-                            vel, luctus pulvinar, hendrerit id, lorem.
+                            A computational model uses computer programs to simulate and study complex systems using
+                            an algorithmic or mechanistic approach and is widely used in a diverse range of fields
+                            spanning from physics, engineering, chemistry and biology to economics,
+                            psychology, cognitive science and computer science.
                         </p>
                     </div>
                 </div>
@@ -53,22 +49,19 @@
                         <h1>Models</h1>
                         <hr>
                         <p class="text">
-                            Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por
-                            scientie, musica,
-                            sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li
-                            grammatica, li
-                            pronunciation e
-                            li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On
-                            refusa
-                            continuar payar
-                            custosi traductores. At solmen va esser.
+                            As a Computational Science student, you will work a lot with creating models for different
+                            real life problems. On this page we placed some of our models we made, or things you would
+                            see often durring the program.Given the wide range of potential applications, some students
+                            will choose to focus on a specific domain, while others will keep their approach broad to
+                            remain applicable across multiple domains.
+
                         </p>
                     </div>
                 </div>
-                <div class="flex-row-space-between">
+                <!-- <div class="flex-row-space-between">
                     <div class="flex-item flex-column">
                         <a href="#traffic-models" target="_blank" class="image max-width-400">
-                            <img src="img/dummay-img.png">
+                            <img src="images/final_grid_state.png">
                         </a>
                         <p class="image-caption">Traffic Models</p>
                     </div>
@@ -80,43 +73,57 @@
                     </div>
                     <div class="flex-item flex-column">
                         <a href="#covid" target="_blank" class="image max-width-400">
-                            <img src="img/dummay-img.png">
+                            <img src="images/exposure_per_node.png">
                         </a>
                         <p class="image-caption">COVID-19 Exposure in Grocery Stores</p>
                     </div>
                     <div class="flex-item flex-column">
                         <a href="#sir" target="_blank" class="image max-width-400">
-                            <img src="img/dummay-img.png">
+                            <img src="images/sir_model.png">
                         </a>
                         <p class="image-caption">SIR Model</p>
                     </div>
-                </div>
-                <div class="flex-row">
-                    <div class="flex-item flex-column">
-                        <p class="text">
-                            Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por
-                            scientie, musica,
-                            sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li
-                            grammatica, li
-                            pronunciation e
-                            li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On
-                            refusa
-                            continuar payar
-                            custosi traductores. At solmen va esser.
-                        </p>
-                    </div>
-                </div>
+                </div> -->
+
                 <div class="flex-row">
                     <div class="flex-item flex-column">
                         <h2 id="text-around-image traffic-models">Traffic Models</h2>
                         <hr>
-                        <img class="image center max-width-400 add-top-margin-small" src="img/dummay-img.png">
+                        <img class="image center add-top-margin-small" src="images/final_grid_state.png">
                         <p class="text">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem
-                            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                            dicta
-                            sunt explicabo.
+                            To see how complex systems like traffic emerge, we modeled traffic flow through a roundabout
+                            in a city. For this image the cars are the red squared, whereby the roundabout is the centre
+                            brown square.
+                            This model was made as simple as possible, by only using local rules. The
+                            following rules were defined:
+                        <ul>
+                            <li>
+                                Cars will try to move at maximum speed on straight roads.
+                            </li>
+                            <li>
+                                Cars will stop when a car is in front of them.
+                            </li>
+                            <li>
+                                Cars will move on the rotary until the flag is changed to exit.
+                            </li>
+                        </ul>
+
+                        Hereby the following assumptions were made:
+                        <ul>
+                            <li>
+                                Cars can move instantly to full speed and will break instantly.
+                            </li>
+                            <li>
+                                Cars don't have a predefined destination.
+                            </li>
+                            <li>
+                                Cars can only move as far as they can, never overtaking another car.
+                            </li>
+                        </ul>
+                        Besides these simple rules, we could still observere that the density of cars made a big
+                        difference on traffic jams, as one would expect from real life. Hereby the change in speed
+                        limits didn't change that much.
+
                         </p>
                     </div>
                     <div class="flex-item flex-column">
@@ -134,25 +141,39 @@
                     <div class="flex-item flex-column">
                         <h2 id="text-around-image covid">COVID-19 Exposure in Grocery Stores</h2>
                         <hr>
-                        <img class="image center max-width-400 add-top-margin-small" src="img/dummay-img.png">
+                        <img class="image center add-top-margin-small" src="images/exposure_per_node.png">
                         <p class="text">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem
-                            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                            dicta
-                            sunt explicabo.
+                            During COVID it was mandantory to walk certain routes within supermarkets. As a project we
+                            modelled if this was indeed more efficient to dicrease the spreading of COVID, compared to
+                            normal paths.
+                            For this we used an Agent-Based Modeling approach, in which agents moved across a
+                            custom-designed
+                            network. The assumption was made that only a certain amount of agents could occupy a single
+                            node.
+                            The walking paths were designed based on the shopping list of the customers, with some noise
+                            added so that the agents could walk back and forward.
+                            How darker the node, how higher the probability to get infected.
                         </p>
                     </div>
                     <div class="flex-item flex-column">
                         <h2 id="text-around-image sir">SIR Model</h2>
                         <hr>
-                        <img class="image center max-width-400 add-top-margin-small" src="img/dummay-img.png">
+                        <img class="image center add-top-margin-small" src="images/sir_model.png">
                         <p class="text">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                            laudantium, totam rem
-                            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                            dicta
-                            sunt explicabo.
+                            The SIR model is a simple and widely used epidemiological model that describes how a disease
+                            spreads through a fixed population. It divides the population into three compartments:
+                            Susceptible (<b>S</b>), Infected (<b>I</b>), and Recovered (<b>R</b>). Individuals move from
+                            being
+                            susceptible to infected when they come into contact with an infected person, with a
+                            transmission rate of β and they recover at a rate of γ, after which they become immune.
+                            <br>
+                            It is a simple but effective model and it was used a lot during COVID, because it can
+                            capture the key dynamics. But given the nature of the model, every person is contacted with
+                            every other person in the population. Something that doesn't happen in real life. Besides it
+                            is a deterministic model, meaning that based on the initial parameters we can show how the
+                            system evolves. Given that real life is non deterministic, this can couse some problems.
+                            <br>
+                            This is one of the first models you would learn when participating this master program.
                         </p>
                     </div>
                 </div>
