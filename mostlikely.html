@@ -16,7 +16,7 @@
     <script src="js/menu.js"></script>
     <script src="js/footer.js"></script>
     <style>
-        .menu-index {
+        .menu-statistics {
             color: rgb(255, 255, 255) !important;
             opacity: 1 !important;
             font-weight: 700 !important;
@@ -27,410 +27,432 @@
 <body>
     <div class="menu-container"></div>
     <div class="content-container">
-        <div class="content">
-            <div class="content-table flex-column">
-
-                <div class="ranking-section">
-                    <h1>Which teacher is most likely to win the annual pubquiz?</h1>
-                    <hr>
-
-                    <div class="podium">
-                        <div class="step second">
-                            <div class="name">Gábor Závodszky</div>
-                            <div class="step-box">
-                                <img src="images/gabor.jpg" alt="Second Place">
-                                <div class="label">2</div>
-                            </div>
-                        </div>
-                        <div class="step first">
-                            <div class="name">Mike Lees</div>
-                            <div class="step-box">
-                                <img src="images/mike.jpg" alt="First Place">
-                                <div class="label">1</div>
-                            </div>
-                        </div>
-                        <div class="step third">
-                            <div class="name">Chris Stolk</div>
-                            <div class="step-box">
-                                <img src="images/chris.jpg" alt="Third Place">
-                                <div class="label">3</div>
-                            </div>
-                        </div>
+        <div class="banner">
+            <div class="banner-table flex-column">
+                <div class="flex-row">
+                    <div class="flex-item flex-column">
+                        <p class="text">
+                            We asked the students and teachers of the programme which teacher is most likely to do
+                            something. To visualize the results, we created a podium for each question. The placements
+                            on the podiums are based on the number of votes each teacher received. On the side of the
+                            podium, we placed the teacher of which their colleagues thought they would be the most
+                            likely to do something.
+                        </p>
                     </div>
-
-
-
-                    <div class="side-container">
-                        <div class="side-title">Teacher's Answer</div>
-                        <div class="side-images">
-                            <div class="side-image">
-                                <img src="images/mike.jpg" alt="Teacher Image 1">
-                            </div>
-                            <!-- <div class="side-image">
-                                <img src="img/dummay-img.png" alt="Teacher Image 2">
-                            </div> -->
-                        </div>
-                    </div>
-                    <p class="text">
-                        Mike won this one by a landslide, even all the teacher named him.
-                    </p>
-                </div>
-                <div class="ranking-section">
-                    <h1>Which teacher likely drinks the most coffee?</h1>
-                    <hr>
-
-                    <div class="podium">
-                        <div class="step second">
-                            <div class="name">Mike Lees</div>
-                            <div class="step-box">
-                                <img src="images/mike.jpg" alt="Second Place">
-                                <div class="label">2</div>
-                            </div>
-                        </div>
-                        <div class="step first">
-                            <div class="name">Rick Quax</div>
-                            <div class="step-box">
-                                <img src="images/rick.jpg" alt="First Place">
-                                <div class="label">1</div>
-                            </div>
-                        </div>
-                        <div class="step third">
-                            <div class="name">Valeria Krzhizhanovskaya</div>
-                            <div class="step-box">
-                                <img src="images/lera.jpg" alt="Third Place">
-                                <div class="label">3</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="side-container">
-                        <div class="side-title">Teachers' Answers</div>
-                        <div class="side-images">
-                            <div class="side-image">
-                                <img src="images/rick.jpg" alt="Teacher Image 1">
-                            </div>
-                            <div class="side-image">
-                                <img src="images/clelia.jpg" alt="Teacher Image 1">
-                            </div>
-                        </div>
-                    </div>
-                    <p class="text">
-                        Most teachers answered themselves, but Rick was mostly selected as second.
-                    </p>
-                </div>
-                <div class="ranking-section">
-                    <h1>Which teacher is most likely to win a sports medal?</h1>
-                    <hr>
-
-                    <div class="podium">
-                        <div class="step second">
-                            <div class="name">Mike Lees</div>
-                            <div class="step-box">
-                                <img src="images/mike.jpg" alt="Second Place">
-                                <div class="label">2</div>
-                            </div>
-                        </div>
-                        <div class="step first">
-                            <div class="name">Gábor Závodszky</div>
-                            <div class="step-box">
-                                <img src="images/gabor.jpg" alt="First Place">
-                                <div class="label">1</div>
-                            </div>
-                        </div>
-                        <div class="step third">
-                            <div class="name">Andrea Tabi</div>
-                            <div class="step-box">
-                                <img src="images/andrea.jpg" alt="Third Place">
-                                <div class="label">3</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="side-container">
-                        <div class="side-title">Teacher's Answer</div>
-                        <div class="side-images">
-                            <div class="side-image">
-                                <img src="images/gabor.jpg" alt="Teacher Image 1">
-                            </div>
-                        </div>
-                    </div>
-                    <p class="text">
-                        The teachers answered this question better than the students, because they specified the sport
-                        their
-                        colleagues could win in. They mentioned that Gábor for example could win in climbing.
-                    </p>
-                </div>
-                <div class="ranking-section">
-                    <h1>Which teacher is most likely to travel a lot to/for work?</h1>
-                    <hr>
-
-                    <div class="podium">
-                        <div class="step second">
-                            <div class="name">Valeria Krzhizhanovskaya</div>
-                            <div class="step-box">
-                                <img src="images/lera.jpg" alt="Second Place">
-                                <div class="label">2</div>
-                            </div>
-                        </div>
-                        <div class="step first">
-                            <div class="name">Mike Lees</div>
-                            <div class="step-box">
-                                <img src="images/mike.jpg" alt="First Place">
-                                <div class="label">1</div>
-                            </div>
-                        </div>
-                        <div class="step third">
-                            <div class="name">Rick Quax</div>
-                            <div class="step-box">
-                                <img src="images/rick.jpg" alt="Third Place">
-                                <div class="label">3</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="side-container">
-                        <div class="side-title">Teacher's Answer</div>
-                        <div class="side-images">
-                            <div class="side-image">
-                                <img src="images/vitor.jpg" alt="Teacher Image 1">
-                            </div>
-                            <div class="side-image">
-                                <img src="images/alfons.jpg" alt="Teacher Image 1">
-                            </div>
-
-                        </div>
-                    </div>
-                    <p class="text">
-                        Most of the teachers interpreted this question as who travels the most for conferences, instead
-                        of commute. Resulting in Alfonso and Vítor being the most mentioned.
-                    </p>
-                </div>
-                <div class="ranking-section">
-                    <h1>Which teacher is likely to make the most jokes in a lecture?</h1>
-                    <hr>
-
-                    <div class="podium">
-                        <div class="step second">
-                            <div class="name">Mike Lees</div>
-                            <div class="step-box">
-                                <img src="images/mike.jpg" alt="Second Place">
-                                <div class="label">2</div>
-                            </div>
-                        </div>
-                        <div class="step first">
-                            <div class="name">Gábor Závodszky</div>
-                            <div class="step-box">
-                                <img src="images/gabor.jpg" alt="First Place">
-                                <div class="label">1</div>
-                            </div>
-                        </div>
-                        <div class="step third">
-                            <div class="name">Debraj Roy</div>
-                            <div class="step-box">
-                                <img src="images/debraj.jpg" alt="Third Place">
-                                <div class="label">3</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="side-container">
-                        <div class="side-title">Teacher's Answer</div>
-                        <div class="side-images">
-                            <div class="side-image">
-                                <img src="images/mike.jpg" alt="Teacher Image 1">
-                            </div>
-                            <div class="side-image">
-                                <img src="images/vitor.jpg" alt="Teacher Image 1">
-                            </div>
-
-                        </div>
-                    </div>
-                    <p class="text">
-                        The teachers found this question difficult to answered, because they don't see how their
-                        colleagues are during lectures. But most of them answered Mike, after which it became a tossup
-                        between Rick and Vítor.
-                    </p>
-                </div>
-                <div class="ranking-section">
-                    <h1>Which teacher likely owns the most amount of plants?</h1>
-                    <hr>
-
-                    <div class="podium">
-                        <div class="step second">
-                            <div class="name">Andrea Tabi</div>
-                            <div class="step-box">
-                                <img src="images/andrea.jpg" alt="Second Place">
-                                <div class="label">2</div>
-                            </div>
-                        </div>
-                        <div class="step first">
-                            <div class="name">Jaap Kaandorp</div>
-                            <div class="step-box">
-                                <img src="images/jaap.jpg" alt="First Place">
-                                <div class="label">1</div>
-                            </div>
-                        </div>
-                        <div class="step third">
-                            <div class="name">Chris Stolk</div>
-                            <div class="step-box">
-                                <img src="images/chris.jpg" alt="Third Place">
-                                <div class="label">3</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="side-container">
-                        <div class="side-title">Teacher's Answer</div>
-                        <div class="side-images">
-                            <div class="side-image">
-                                <img src="images/jaap.jpg" alt="Teacher Image 1">
-                            </div>
-                            <div class="side-image">
-                                <img src="images/lera.jpg" alt="Teacher Image 1">
-                            </div>
-
-                        </div>
-                    </div>
-                    <p class="text">
-                        While interviewing Mike, he describes Jaap's office as a jungle.
-                    </p>
-                </div>
-                <div class="ranking-section">
-                    <h1>Which teacher is likely to arrive first to the office in the morning?</h1>
-                    <hr>
-
-                    <div class="podium">
-                        <div class="step second">
-                            <div class="name">Rick Quax</div>
-                            <div class="step-box">
-                                <img src="images/rick.jpg" alt="Second Place">
-                                <div class="label">2</div>
-                            </div>
-                        </div>
-                        <div class="step first">
-                            <div class="name">Chris Stolk</div>
-                            <div class="step-box">
-                                <img src="images/chris.jpg" alt="First Place">
-                                <div class="label">1</div>
-                            </div>
-                        </div>
-                        <div class="step third">
-                            <div class="name">Mike Lees</div>
-                            <div class="step-box">
-                                <img src="images/mike.jpg" alt="Third Place">
-                                <div class="label">3</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="side-container">
-                        <div class="side-title">Teacher's Answer</div>
-                        <div class="side-images">
-                            <div class="side-image">
-                                <img src="images/alfons.jpg" alt="Teacher Image 1">
-                            </div>
-                            <div class="side-image">
-                                <img src="images/vitor.jpg" alt="Teacher Image 1">
-                            </div>
-
-                        </div>
-                    </div>
-                    <p class="text">
-                        Vítor mentioned that Alfons will always be the first one to arrive to the office, but sometimes
-                        he will beat him to it.
-                    </p>
-                </div>
-                <div class="ranking-section">
-                    <h1>Which teacher likely has the largest number of GitHub commits in 2024?</h1>
-                    <hr>
-
-                    <div class="podium">
-                        <div class="step second">
-                            <div class="name">Rick Quax</div>
-                            <div class="step-box">
-                                <img src="images/rick.jpg" alt="Second Place">
-                                <div class="label">2</div>
-                            </div>
-                        </div>
-                        <div class="step first">
-                            <div class="name">Gábor Závodszky</div>
-                            <div class="step-box">
-                                <img src="images/gabor.jpg" alt="First Place">
-                                <div class="label">1</div>
-                            </div>
-                        </div>
-                        <div class="step third">
-                            <div class="name">Francesc Verdugo Rojano</div>
-                            <div class="step-box">
-                                <img src="images/francesc.JPG" alt="Third Place">
-                                <div class="label">3</div>
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="side-container">
-                        <div class="side-title">Teacher's Answer</div>
-                        <div class="side-images">
-                            <div class="side-image">
-                                <img src="images/gabor.jpg" alt="Teacher Image 1">
-                            </div>
-                            <div class="side-image">
-                                <img src="images/phd.jpg" alt="PhD students">
-                            </div>
-
-                        </div>
-                    </div>
-                    <p class="text">
-                        It’s funny because Gábor said he doesn’t have the most commits and that the PhD students usually
-                        handle
-                        that part. But when we compared it to the other teachers in this list, he had by far the most
-                        commits (and that was not that much to be honest).
-                    </p>
-                </div>
-                <div class="ranking-section">
-                    <h1>Which teacher is likely buy their lunch?</h1>
-                    <hr>
-
-                    <div class="podium">
-                        <div class="step second">
-                            <div class="name">Gábor Závodszky</div>
-                            <div class="step-box">
-                                <img src="images/gabor.jpg" alt="Second Place">
-                                <div class="label">2</div>
-                            </div>
-                        </div>
-                        <div class="step first">
-                            <div class="name">Vítor Vasconcelos</div>
-                            <div class="step-box">
-                                <img src="images/vitor.jpg" alt="First Place">
-                                <div class="label">1</div>
-                            </div>
-                        </div>
-                    </div>
-                    <p>
-                        We only asked the teachers this question because it was similar to one we gave the students.
-                        Hereby we want to thank Vítor and Gábor for their help in sponsoring the local caffeteria.
-                    </p>
-
                 </div>
             </div>
         </div>
-    </div>
-    <div class="footer-container"></div>
+        <div class="content-container">
+            <div class="content">
+                <div class="content-table flex-column">
+
+                    <div class="ranking-section">
+                        <h1>Which teacher is most likely to win the annual pubquiz?</h1>
+                        <hr>
+
+                        <div class="podium">
+                            <div class="step second">
+                                <div class="name">Gábor Závodszky</div>
+                                <div class="step-box">
+                                    <img src="images/gabor.jpg" alt="Second Place">
+                                    <div class="label">2</div>
+                                </div>
+                            </div>
+                            <div class="step first">
+                                <div class="name">Mike Lees</div>
+                                <div class="step-box">
+                                    <img src="images/mike.jpg" alt="First Place">
+                                    <div class="label">1</div>
+                                </div>
+                            </div>
+                            <div class="step third">
+                                <div class="name">Chris Stolk</div>
+                                <div class="step-box">
+                                    <img src="images/chris.jpg" alt="Third Place">
+                                    <div class="label">3</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="side-container">
+                            <div class="side-title">Teacher's Answer</div>
+                            <div class="side-images">
+                                <div class="side-image">
+                                    <img src="images/mike.jpg" alt="Teacher Image 1">
+                                </div>
+                                <!-- <div class="side-image">
+                                <img src="img/dummay-img.png" alt="Teacher Image 2">
+                            </div> -->
+                            </div>
+                        </div>
+                        <p class="text">
+                            Mike won this one by a landslide, even all the teacher named him.
+                        </p>
+                    </div>
+                    <div class="ranking-section">
+                        <h1>Which teacher likely drinks the most coffee?</h1>
+                        <hr>
+
+                        <div class="podium">
+                            <div class="step second">
+                                <div class="name">Mike Lees</div>
+                                <div class="step-box">
+                                    <img src="images/mike.jpg" alt="Second Place">
+                                    <div class="label">2</div>
+                                </div>
+                            </div>
+                            <div class="step first">
+                                <div class="name">Rick Quax</div>
+                                <div class="step-box">
+                                    <img src="images/rick.jpg" alt="First Place">
+                                    <div class="label">1</div>
+                                </div>
+                            </div>
+                            <div class="step third">
+                                <div class="name">Valeria Krzhizhanovskaya</div>
+                                <div class="step-box">
+                                    <img src="images/lera.jpg" alt="Third Place">
+                                    <div class="label">3</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="side-container">
+                            <div class="side-title">Teachers' Answers</div>
+                            <div class="side-images">
+                                <div class="side-image">
+                                    <img src="images/rick.jpg" alt="Teacher Image 1">
+                                </div>
+                                <div class="side-image">
+                                    <img src="images/clelia.jpg" alt="Teacher Image 1">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text">
+                            Most teachers answered themselves, but Rick was mostly selected as second.
+                        </p>
+                    </div>
+                    <div class="ranking-section">
+                        <h1>Which teacher is most likely to win a sports medal?</h1>
+                        <hr>
+
+                        <div class="podium">
+                            <div class="step second">
+                                <div class="name">Mike Lees</div>
+                                <div class="step-box">
+                                    <img src="images/mike.jpg" alt="Second Place">
+                                    <div class="label">2</div>
+                                </div>
+                            </div>
+                            <div class="step first">
+                                <div class="name">Gábor Závodszky</div>
+                                <div class="step-box">
+                                    <img src="images/gabor.jpg" alt="First Place">
+                                    <div class="label">1</div>
+                                </div>
+                            </div>
+                            <div class="step third">
+                                <div class="name">Andrea Tabi</div>
+                                <div class="step-box">
+                                    <img src="images/andrea.jpg" alt="Third Place">
+                                    <div class="label">3</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="side-container">
+                            <div class="side-title">Teacher's Answer</div>
+                            <div class="side-images">
+                                <div class="side-image">
+                                    <img src="images/gabor.jpg" alt="Teacher Image 1">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text">
+                            The teachers answered this question better than the students, because they specified the
+                            sport
+                            their
+                            colleagues could win in. They mentioned that Gábor for example could win in climbing.
+                        </p>
+                    </div>
+                    <div class="ranking-section">
+                        <h1>Which teacher is most likely to travel a lot to/for work?</h1>
+                        <hr>
+
+                        <div class="podium">
+                            <div class="step second">
+                                <div class="name">Valeria Krzhizhanovskaya</div>
+                                <div class="step-box">
+                                    <img src="images/lera.jpg" alt="Second Place">
+                                    <div class="label">2</div>
+                                </div>
+                            </div>
+                            <div class="step first">
+                                <div class="name">Mike Lees</div>
+                                <div class="step-box">
+                                    <img src="images/mike.jpg" alt="First Place">
+                                    <div class="label">1</div>
+                                </div>
+                            </div>
+                            <div class="step third">
+                                <div class="name">Rick Quax</div>
+                                <div class="step-box">
+                                    <img src="images/rick.jpg" alt="Third Place">
+                                    <div class="label">3</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="side-container">
+                            <div class="side-title">Teacher's Answer</div>
+                            <div class="side-images">
+                                <div class="side-image">
+                                    <img src="images/vitor.jpg" alt="Teacher Image 1">
+                                </div>
+                                <div class="side-image">
+                                    <img src="images/alfons.jpg" alt="Teacher Image 1">
+                                </div>
+
+                            </div>
+                        </div>
+                        <p class="text">
+                            Most of the teachers interpreted this question as who travels the most for conferences,
+                            instead
+                            of commute. Resulting in Alfonso and Vítor being the most mentioned.
+                        </p>
+                    </div>
+                    <div class="ranking-section">
+                        <h1>Which teacher is likely to make the most jokes in a lecture?</h1>
+                        <hr>
+
+                        <div class="podium">
+                            <div class="step second">
+                                <div class="name">Mike Lees</div>
+                                <div class="step-box">
+                                    <img src="images/mike.jpg" alt="Second Place">
+                                    <div class="label">2</div>
+                                </div>
+                            </div>
+                            <div class="step first">
+                                <div class="name">Gábor Závodszky</div>
+                                <div class="step-box">
+                                    <img src="images/gabor.jpg" alt="First Place">
+                                    <div class="label">1</div>
+                                </div>
+                            </div>
+                            <div class="step third">
+                                <div class="name">Debraj Roy</div>
+                                <div class="step-box">
+                                    <img src="images/debraj.jpg" alt="Third Place">
+                                    <div class="label">3</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="side-container">
+                            <div class="side-title">Teacher's Answer</div>
+                            <div class="side-images">
+                                <div class="side-image">
+                                    <img src="images/mike.jpg" alt="Teacher Image 1">
+                                </div>
+                                <div class="side-image">
+                                    <img src="images/vitor.jpg" alt="Teacher Image 1">
+                                </div>
+
+                            </div>
+                        </div>
+                        <p class="text">
+                            The teachers found this question difficult to answered, because they don't see how their
+                            colleagues are during lectures. But most of them answered Mike, after which it became a
+                            tossup
+                            between Rick and Vítor.
+                        </p>
+                    </div>
+                    <div class="ranking-section">
+                        <h1>Which teacher likely owns the most amount of plants?</h1>
+                        <hr>
+
+                        <div class="podium">
+                            <div class="step second">
+                                <div class="name">Andrea Tabi</div>
+                                <div class="step-box">
+                                    <img src="images/andrea.jpg" alt="Second Place">
+                                    <div class="label">2</div>
+                                </div>
+                            </div>
+                            <div class="step first">
+                                <div class="name">Jaap Kaandorp</div>
+                                <div class="step-box">
+                                    <img src="images/jaap.jpg" alt="First Place">
+                                    <div class="label">1</div>
+                                </div>
+                            </div>
+                            <div class="step third">
+                                <div class="name">Chris Stolk</div>
+                                <div class="step-box">
+                                    <img src="images/chris.jpg" alt="Third Place">
+                                    <div class="label">3</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="side-container">
+                            <div class="side-title">Teacher's Answer</div>
+                            <div class="side-images">
+                                <div class="side-image">
+                                    <img src="images/jaap.jpg" alt="Teacher Image 1">
+                                </div>
+                                <div class="side-image">
+                                    <img src="images/lera.jpg" alt="Teacher Image 1">
+                                </div>
+
+                            </div>
+                        </div>
+                        <p class="text">
+                            While interviewing Mike, he describes Jaap's office as a jungle.
+                        </p>
+                    </div>
+                    <div class="ranking-section">
+                        <h1>Which teacher is likely to arrive first to the office in the morning?</h1>
+                        <hr>
+
+                        <div class="podium">
+                            <div class="step second">
+                                <div class="name">Rick Quax</div>
+                                <div class="step-box">
+                                    <img src="images/rick.jpg" alt="Second Place">
+                                    <div class="label">2</div>
+                                </div>
+                            </div>
+                            <div class="step first">
+                                <div class="name">Chris Stolk</div>
+                                <div class="step-box">
+                                    <img src="images/chris.jpg" alt="First Place">
+                                    <div class="label">1</div>
+                                </div>
+                            </div>
+                            <div class="step third">
+                                <div class="name">Mike Lees</div>
+                                <div class="step-box">
+                                    <img src="images/mike.jpg" alt="Third Place">
+                                    <div class="label">3</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="side-container">
+                            <div class="side-title">Teacher's Answer</div>
+                            <div class="side-images">
+                                <div class="side-image">
+                                    <img src="images/alfons.jpg" alt="Teacher Image 1">
+                                </div>
+                                <div class="side-image">
+                                    <img src="images/vitor.jpg" alt="Teacher Image 1">
+                                </div>
+
+                            </div>
+                        </div>
+                        <p class="text">
+                            Vítor mentioned that Alfons will always be the first one to arrive to the office, but
+                            sometimes
+                            he will beat him to it.
+                        </p>
+                    </div>
+                    <div class="ranking-section">
+                        <h1>Which teacher likely has the largest number of GitHub commits in 2024?</h1>
+                        <hr>
+
+                        <div class="podium">
+                            <div class="step second">
+                                <div class="name">Rick Quax</div>
+                                <div class="step-box">
+                                    <img src="images/rick.jpg" alt="Second Place">
+                                    <div class="label">2</div>
+                                </div>
+                            </div>
+                            <div class="step first">
+                                <div class="name">Gábor Závodszky</div>
+                                <div class="step-box">
+                                    <img src="images/gabor.jpg" alt="First Place">
+                                    <div class="label">1</div>
+                                </div>
+                            </div>
+                            <div class="step third">
+                                <div class="name">Francesc Verdugo Rojano</div>
+                                <div class="step-box">
+                                    <img src="images/francesc.JPG" alt="Third Place">
+                                    <div class="label">3</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="side-container">
+                            <div class="side-title">Teacher's Answer</div>
+                            <div class="side-images">
+                                <div class="side-image">
+                                    <img src="images/gabor.jpg" alt="Teacher Image 1">
+                                </div>
+                                <div class="side-image">
+                                    <img src="images/phd.jpg" alt="PhD students">
+                                </div>
+
+                            </div>
+                        </div>
+                        <p class="text">
+                            It’s funny because Gábor said he doesn’t have the most commits and that the PhD students
+                            usually
+                            handle
+                            that part. But when we compared it to the other teachers in this list, he had by far the
+                            most
+                            commits (and that was not that much to be honest).
+                        </p>
+                    </div>
+                    <div class="ranking-section">
+                        <h1>Which teacher is likely buy their lunch?</h1>
+                        <hr>
+
+                        <div class="podium">
+                            <div class="step second">
+                                <div class="name">Gábor Závodszky</div>
+                                <div class="step-box">
+                                    <img src="images/gabor.jpg" alt="Second Place">
+                                    <div class="label">2</div>
+                                </div>
+                            </div>
+                            <div class="step first">
+                                <div class="name">Vítor Vasconcelos</div>
+                                <div class="step-box">
+                                    <img src="images/vitor.jpg" alt="First Place">
+                                    <div class="label">1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <p>
+                            We only asked the teachers this question because it was similar to one we gave the students.
+                            Hereby we want to thank Vítor and Gábor for their help in sponsoring the local caffeteria.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-container"></div>
 </body>
 
 </html>
