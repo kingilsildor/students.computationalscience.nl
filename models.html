@@ -49,11 +49,11 @@
                         <h1>Models</h1>
                         <hr>
                         <p class="text">
-                            As a Computational Science student, you will work a lot with creating models for different
-                            real life problems. On this page we placed some of our models we made, or things you would
-                            see often durring the program. Given the wide range of potential applications, some students
-                            will choose to focus on a specific domain, while others will keep their approach broad to
-                            remain applicable across multiple domains.
+                            As a Computational Science student, you work a lot with creating models for different
+                            real life problems. On this page you can find some of the models we have made, and subjects you might
+                            come across during the program. Given the wide range of potential applications, some students
+                            choose to focus on a specific domain, while others keep their approach broad to
+                            remain adaptable across multiple domains.
                         </p>
                     </div>
                 </div>
@@ -90,38 +90,37 @@
                         <hr>
                         <img class="image center add-top-margin-small" src="images/final_grid_state.png">
                         <p class="text">
-                            To see how complex systems like traffic emerge, we modeled traffic flow through a roundabout
-                            in a city. For this image the cars are the red squared, whereby the roundabout is the centre
-                            brown square.
-                            This model was made as simple as possible, by only using local rules. The
-                            following rules were defined:
+                            To see how complex systems like traffic emerge, we modelled traffic flow through a roundabout
+                            in a city. In this image the cars are the red squares, while the central brown squares
+                            represent the roundabout.
+                            The model was made to be as simple as possible, and only uses the following local rules:
                         <ul>
                             <li>
-                                Cars will try to move at maximum speed on straight roads.
+                                Cars try to move at maximum speed on straight roads.
                             </li>
                             <li>
-                                Cars will stop when a car is in front of them.
+                                Cars stop when there is a car in front of them.
                             </li>
                             <li>
-                                Cars will move on the rotary until the flag is changed to exit.
+                                Cars move on the rotary until the flag changes to "exit".
                             </li>
                         </ul>
 
-                        Hereby the following assumptions were made:
+                        The following assumptions were made:
                         <ul>
                             <li>
-                                Cars can move instantly to full speed and will break instantly.
+                                Cars can instantly move to full speed and can break instantly.
                             </li>
                             <li>
                                 Cars don't have a predefined destination.
                             </li>
                             <li>
-                                Cars can only move as far as they can, never overtaking another car.
+                                Cars can never overtake another car.
                             </li>
                         </ul>
-                        Besides these simple rules, we could still observere that the density of cars made a big
-                        difference on traffic jams, as one would expect from real life. Hereby the change in speed
-                        limits didn't change that much.
+                        In this model, we observed that the density of cars had an impact on 
+                        traffic jams, as one would expect from real life. We also noted that a change in speed
+                        limit didn't affect the traffic jams much.
 
                         </p>
                     </div>
@@ -130,16 +129,15 @@
                         <hr>
                         <img class="image center add-top-margin-small" src="images/exposure_per_node.png">
                         <p class="text">
-                            During COVID it was mandantory to walk certain routes within supermarkets. As a project we
-                            modelled if this was indeed more efficient to dicrease the spreading of COVID, compared to
-                            normal paths.
-                            For this we used an Agent-Based Modeling approach, in which agents moved across a
+                            During the COVID-19 pandemic, it was mandantory to walk certain routes within supermarkets. For one of our project we
+                            created a model that would help us determine whether this strategy was indeed more efficient in dicreasing the spread of COVID-19 than letting people walk normally.
+                            To do this, we used an Agent-Based Modeling approach, in which agents move across a
                             custom-designed
-                            network. The assumption was made that only a certain amount of agents could occupy a single
-                            node.
-                            The walking paths were designed based on the shopping list of the customers, with some noise
-                            added so that the agents could walk back and forward.
-                            How darker the node, how higher the probability to get infected.
+                            network. The assumption was that only a certain number of agents could occupy a single
+                            node at a time.
+                            Walking paths were designed based on the shopping list of the customers, with some added noise
+                            to account for agents walking backward and forward.
+                            The darker a node is, the higher the probability is to get infected there.
                         </p>
                     </div>
                     <div class="flex-item flex-column">
@@ -148,19 +146,18 @@
                         <img class="image center add-top-margin-small" src="images/sir_model.png">
                         <p class="text">
                             The SIR model is a simple and widely used epidemiological model that describes how a disease
-                            spreads through a fixed population. It divides the population into three compartments:
+                            spreads through a fixed population. It is one of the first models you will encounter when studying this master's programme.
+                            The model divides the population into three compartments:
                             Susceptible (<b>S</b>), Infected (<b>I</b>), and Recovered (<b>R</b>). Individuals move from
                             being
-                            susceptible to infected when they come into contact with an infected person, with a
-                            transmission rate of β and they recover at a rate of γ, after which they become immune.
+                            susceptible to infected at a transmission rate β when they come into contact with an infected person. 
+                            They recover from infection at a rate γ, after which they become immune. 
                             <br>
-                            It is a simple but effective model and it was used a lot during COVID, because it can
-                            capture the key dynamics. But given the nature of the model, every person is contacted with
-                            every other person in the population. Something that doesn't happen in real life. Besides it
-                            is a deterministic model, meaning that based on the initial parameters we can show how the
-                            system evolves. Given that real life is non deterministic, this can couse some problems.
                             <br>
-                            This is one of the first models you would learn when participating this master program.
+                            It is a simple, yet effective, model. Since it can capture key dynamics of disease spread, it was widely used during the COVID-19 pandemic.
+                            However, this is
+                            a deterministic model, meaning that given the initial conditions, we know how the system
+                            evolves. In reality, pandemics involve elements of randomness, making them non-deterministic, which this model fails to account for. 
                         </p>
                     </div>
                 </div>
